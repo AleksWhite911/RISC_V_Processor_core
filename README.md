@@ -1,17 +1,24 @@
-# schoolRISCV
+# RISC-V Single-stage Processor
+# Author : RenAshbell(Anatoly Alekseev).
 
-Tiny RISCV CPU. Originally based on Sarah L. Harris MIPS CPU ("Digital Design and Computer Arhitecture" by David Money Harris and Sarah L Harris) and [schoolMIPS](https://github.com/MIPSfpga/schoolMIPS) project. Supports only a subset of RISCV commands.
+It is my hobby work.
+This project is a fork of the repository https://github.com/zhelnio/schoolRISCV
+# Support instruction:
+  1.  ADD
+  2.  OR
+  3.  SRL
+  4.  SLTU
+  5.  SUB
+  6.  MUL
+  7.  LW
+  8.  SW
+  9.  ADDI
+  10. LUI
+  11. AUIPC
+  12. BEQ
+  13. BNE
+  14. JAL
 
-![schoolRISCV](https://raw.githubusercontent.com/wiki/zhelnio/schoolRISCV/img/schoolRISCV.gif)
-
-## Docs
-
-[HDL Tools Install](install/readme.md)
-
-[Video (Russian)](https://www.youtube.com/watch?v=w1F6aHfiuZ0&list=PL7J5ZgBGsxn6rquSuWO07kUk_YJrQnXec)
-
-[Slides (Russian)](https://raw.githubusercontent.com/wiki/zhelnio/schoolRISCV/doc/schoolRISCV_slides_ru.pdf)
-
-[New Instruction Example (Russian)](https://raw.githubusercontent.com/wiki/zhelnio/schoolRISCV/doc/schoolRISCV_steps_ru.pdf)
-
-[RISC-V ISA Specification](https://raw.githubusercontent.com/wiki/zhelnio/schoolRISCV/doc/riscv-spec-20191213.pdf)
+# Available periphery:
+  1. Two I/Q DDS
+  2. 2 GPIO ports (32 bits)
